@@ -1,0 +1,200 @@
+*{
+  margin: 0;
+}
+
+@media only screen and (max-width:600px){
+  ul{
+    display: block;
+  }
+}
+
+body{
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: relative;
+}
+
+.home-image{
+  z-index: -1;
+  width: 100%;
+}
+
+#home::after{
+  content: "";
+  background-image: url("https://wallpapercave.com/wp/wp6958316.jpg");
+  opacity: 1;
+  top: 140px;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1; 
+  background-size: cover;
+  background-repeat: repeat;
+}
+
+#header-img{
+  font-size: 30px;
+  margin: 20px;
+}
+
+.header-name{
+  font-family: Times New Roman, sans-serif;
+  font-size: 40px;
+  display: inline;
+  background: -webkit-linear-gradient( #06070a,#5d6ea3);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin: 10px 0px;
+  font-weight: lighter ; 
+
+}
+
+
+#nav-bar{
+  display: inline;
+}
+
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgba(39, 50, 82, 0.7);
+}
+
+li{
+  float: right;
+}
+
+li a {
+  display: block;
+  color: #ebebeb;
+  text-align: center;
+  padding: 20px 30px;
+  text-decoration: none;
+  font-family: Lucida Sans, sans-serif;
+  font-size: 18px;
+}
+
+li a:hover{
+  background-color:#d3d5db;
+  color: #303c4d;
+}
+
+
+.promotion-header{
+  font-size: 70px;
+  margin: 15vh 1vh 3vh 20vh;
+}
+
+.promotion-details{
+  font-size: 50px;
+  margin: 2vh 1vh 2vh 25vh;
+}
+
+.promotion-information{
+  font-size: 20px;
+  color: black;
+  margin: 3vh 1vh 1vh 38vh;
+}
+
+.promotion-information:hover{
+  color: grey;
+}
+
+#home{
+  margin: 
+}
+
+#user-input{
+  margin: 100px;
+}
+
+#body{
+  background-color: #e6e7eb;
+  padding: 10px;
+}
+
+#video{
+  display: block;
+  margin: 100px auto;
+  padding-top: 5px auto 20px auto;
+}
+
+#trending{
+  padding: 10px;
+}
+
+.products{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  align-content: space-evenly;
+}
+
+#trending-style{
+  font-size: 45px;
+  text-align: center;
+  margin: 20px;
+}
+
+#mint-dress{
+  border: 3px solid black;
+  margin: 10px;
+}
+
+#white-outfit{
+  border: 3px solid black;
+  margin: 10px;
+}
+
+#beach-dress{
+  border: 3px solid black;
+  margin: 10px;
+}
+
+#details{
+  margin: 10px;
+  padding: 13px 25px;
+  background-color: white;
+  font-family: Verdana, sans-serif;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+#details:hover{
+  background-color: rgba(7, 8, 8,0.7);
+  color: white;
+}
+
+.description{
+  text-align: center;
+}
+
+.product{
+  margin-top: 20px;
+}
+
+#contact-us{
+  background-color: #364878;
+  padding: 30px;
+  display: flex;
+}
+
+i{
+  font-size: 45px;
+  color: #e0d2ca;
+  margin: 15px;
+}
+
+.social-media:hover{
+  color: #9196a1;
+}
+
+.contact{
+  margin: 10px;
+  color: #e0d2ca;
+}
