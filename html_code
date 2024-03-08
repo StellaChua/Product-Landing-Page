@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Product Landing Template</title>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="styles.css"/>
+    <link
+      href="https://fonts.googleapis.com/css?family=Anton%7CBaskervville%7CRaleway&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+    />
+  </head>
+  <body>
+    <main>
+      <section class="header">
+        <header id="header">
+          <img id="header-img" src=""><i class="fas fa-feather-alt" style="color: 
+#adafb3
+;" id="header-img"></i>
+          <h1 class="header-name">Zephyr</h1>
+          <nav id="nav-bar">
+            <ul>
+              <li><a href="#home" class="nav-link">Home</a></li>
+              <li><a href="#trending" class="nav-link">Trending</a></li>
+              <li><a href="#contact-us" class="nav-link">Contact Us</a></li>
+            </ul>
+          </nav>
+        </header>
+      </section>
+      <section id="home">
+        <div class="box">
+          <h1 class="promotion-header">Zephyr's Day</h1>
+          <h3 class="promotion-details">Up to 50% Off</h3>
+          <a href="deals" class="promotion-information">Check Out more</a>
+        </div>
+      <section id="user-input">
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+          <h2>Unlock Your Zephyr-Style</h2>
+          <input id="email" type="email" name="email" placeholder="Enter your email address" required/>
+          <input id="submit" type="submit" name="submit" value="Submit"/>
+        </form>
+      </section>
+      <section id="body">
+      <section id="product-video">  
+          <iframe id="video" width="60%" height="60%" src="https://www.youtube.com/embed/gJpXlRkW6Fw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </section>
+        <section id="trending">
+          <h2 id="trending-style">Trending Summer Looks</h2>
+          <div class="products">
+            <div id="mint-dress">
+              <img src="https://www.lulus.com/images/product/xlarge/8751941_1471496.jpg?w=195&hdpi=1" />
+              <div class="description">
+                 <h3 class="product">Refreshing Mint Dress Set<br>$69.99</h3>
+                 <input id="details" type="button" name="details" value="Find Out More"/>
+              </div>
+            </div>
+            <div id="white-outfit">
+              <img src="https://i.pinimg.com/236x/c4/87/e4/c487e4c2bf3c26013ff6ac7e64f6654c.jpg" />
+              <div class="description">
+                <h3 class="product">White Casual<br>$29.99</h3>
+                <input id="details" type="button" name="details" value="Find Out More"/>
+              </div>
+            </div>
+            <div id="beach-dress">
+              <img src="https://stylesatlife.com/wp-content/uploads/2018/03/White-off-shoulder-summer-dress.jpg" />
+              <div class="description">
+                <h3 class="product">Silky Floral Dress<br>$89.99</h3>
+                <input id="details" type="button" name="details" value="Find Out More"/>
+              </div>
+            </div>
+          </div>
+        </section>
+      </section>
+      <section id="contact-us">
+        <i class="fa fa-phone"></i>
+        <i class="fas fa-envelope"></i>
+        <a href=""><i class="fab fa-twitter social-media"></i></a>
+        <a href=""><i class="fab fa-facebook social-media"></i></a>
+        <a href=""><i class="fab fa-instagram social-media"></i></a>
+        <div class="contact">
+          <h4 id="phone-no">(+60)678992338</h4>
+          <h4 id="email-add">zephyr@gmail.com</h4>
+          <h5 id="copyright">**Copyright 2023 (Product Landing Page Template)</h5>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
